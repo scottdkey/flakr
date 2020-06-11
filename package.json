@@ -1,0 +1,17 @@
+{
+	"name": "Flakr",
+	"version": "1.0.0",
+	"description": "An app to bet against your friends showing up.",
+	"main": "index.js",
+	"repository": "github.com:scottdkey/flakr.git",
+	"author": "Scott Key <scottdkey@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"install-dev": "cd app && yarn install && cd .. && cd server && yarn install",
+		"lint": "cd app && yarn lint"
+	},
+	"dependencies": {
+		"@react-native-community/cli": "^4.10.0"
+	}
+}
